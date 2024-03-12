@@ -13,17 +13,17 @@ import {
 import { Track } from "livekit-client";
 import { useEffect, useState } from "react";
 
-export default function Page() {
+export default function Page({ params }: { params: { name: string } }) {
   // TODO: get user input for room and name
   const room = "quickstart-room";
-  const name = "quickstart-user";
+  // const name = "abhishek" || "himanshu";
   const [token, setToken] = useState("");
 
   useEffect(() => {
     (async () => {
       try {
         const resp = await fetch(
-          `/api/get-participant-token?room=${room}&username=${name}`
+          `/api/get-participant-token?room=${room}&username=${params.name}`
         );
         const data = await resp.json();
         setToken(data.token);
