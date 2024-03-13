@@ -11,9 +11,9 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full flex justify-between items-center mt-5 h-12">
-      <h1 className="text-3xl font-bold cursor-pointer">Unicord</h1>
-      <ul className="flex items-center justify-center gap-4">
+    <nav className="w-full flex justify-between items-center mt-5 h-12 px-4">
+      <h1 className="text-2xl sm:text-3xl font-bold cursor-pointer">Unicord</h1>
+      <ul className="items-center justify-center gap-4 hidden md:flex">
         {links.map((link, index) => (
           <li key={index} className="hover:scale-110 transition-all">
             <Link href={link.link} className="font-medium text-lg">
@@ -23,7 +23,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <Button borderRadius="0.5rem" className="px-4 py-2">
+      <Button borderRadius="0.5rem" className="px-3 sm:px-6 py-2">
         Login
       </Button>
     </nav>
