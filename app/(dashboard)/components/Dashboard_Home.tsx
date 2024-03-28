@@ -290,7 +290,7 @@ export default function Component() {
   );
 }
 
-function PaperclipIcon(props) {
+function PaperclipIcon(props: any) {
   return (
     <svg
       {...props}
@@ -309,7 +309,7 @@ function PaperclipIcon(props) {
   );
 }
 
-function PhoneIcon(props) {
+function PhoneIcon(props: any) {
   return (
     <svg
       {...props}
@@ -328,7 +328,7 @@ function PhoneIcon(props) {
   );
 }
 
-function SearchIcon(props) {
+function SearchIcon(props: any) {
   return (
     <svg
       {...props}
@@ -348,7 +348,7 @@ function SearchIcon(props) {
   );
 }
 
-function SendIcon(props) {
+function SendIcon(props: any) {
   return (
     <svg
       {...props}
@@ -368,7 +368,7 @@ function SendIcon(props) {
   );
 }
 
-function SmileIcon(props) {
+function SmileIcon(props: any) {
   return (
     <svg
       {...props}
