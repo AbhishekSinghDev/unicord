@@ -148,7 +148,7 @@ export default function Component() {
               <div className="leading-tight">
                 <p className="text-sm">
                   Hey everyone! We have an important meeting tomorrow at 10 AM.
-                  Don't forget to join!
+                  Don&apos;t forget to join!
                 </p>
               </div>
             </div>
@@ -226,7 +226,7 @@ export default function Component() {
               </div>
               <div className="leading-tight">
                 <p className="text-sm">
-                  Yes, that's correct. We'll be going over the details of the
+                  Yes, that&apos;s correct. We&apos;ll be going over the details of the
                   new project and assigning tasks.
                 </p>
               </div>
@@ -253,7 +253,7 @@ export default function Component() {
               </div>
               <div className="leading-tight">
                 <p className="text-sm">
-                  I won't be able to make it to the meeting tomorrow. Can
+                  I won&apos;t be able to make it to the meeting tomorrow. Can
                   someone fill me in later?
                 </p>
               </div>
