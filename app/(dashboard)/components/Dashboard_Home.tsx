@@ -390,7 +390,7 @@ function SmileIcon(props: any) {
   );
 }
 
-function TwitterIcon(props) {
+function TwitterIcon(props: any) {
   return (
     <svg
       {...props}
@@ -409,7 +409,7 @@ function TwitterIcon(props) {
   );
 }
 
-function VideoIcon(props) {
+function VideoIcon(props: any) {
   return (
     <svg
       {...props}
