@@ -1,6 +1,4 @@
-import { Button } from "@/components/ui/button-acer";
 import { UserButton } from "@clerk/nextjs";
-import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
